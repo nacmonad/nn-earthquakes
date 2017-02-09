@@ -6,9 +6,16 @@ We are given a NN, modify it to predict the magnitudes of earthquakes.  The base
 
 Steps:
 1) Clean Data
-2) Normalize Data -- Using minmax scaling  z= (x-min(x))/(max(x)-min(x))
-3) Add extra features and repeat 1 & 2
+
+2) Normalize Data -- Using minmax scaling  z= (x-min(x))/(max(x)-min(x)) (Done in R)
+
+3) Add extra features and repeat 1 & 2 (incomplete)
+
+Neural Network source: 
+https://github.com/sibyjackgrove/Earthquake_predict
+
 4) Train
+
 5) Predict -- Use random_search & grid_search for hyperparameter tuning  (http://scikit-learn.org/stable/auto_examples/model_selection/randomized_search.html)
 
 
